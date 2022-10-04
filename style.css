@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap');
+
+body {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 2px;
+}
+
+.letra-pequeña {
+    letter-spacing: 1px;
+}
+
+.container {
+    position: relative;
+    border: 3px solid lightgray;
+    max-width: 600px;
+    height: auto;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 55px auto;
+    padding: 25px;
+    background-color: white;
+    opacity: 0.9;
+    box-shadow: 5px 8px 10px black;
+}
+
+.caja-de-texto {
+    text-align: left;
+    font-family: 'PT Serif', serif;
+    padding-left: 10px;
+    padding-right: 50px;
+    letter-spacing: 2px;
+}
+
+.caja-de-texto-correo {
+  text-align: left;
+  font-family: 'PT Serif', serif;
+  padding-left: 10px;
+  padding-right: 275px;
+  letter-spacing: 2px;
+}
+
+.button {
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  letter-spacing: 2px;
+}
+
+
+.color-de-fondo {
+        color: black;
+        background-color: lightgray;
+}
+
+body {
+    background-image: url('fondo-cine.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+
+.title {
+    font-family: 'Cinzel', serif;
+    color: black;
+    text-shadow: 2px 4px 15px black;
+  }
+
+.card {
+    position: relative;
+    border: 3px solid lightgray;
+    max-width: 550px;
+    height: 310px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 50px auto;
+    padding: 3px;
+    background-color: lightgray;
+  }
+
+.card-reversed {
+    position: relative;
+    border: 3px solid lightgray;
+    max-width: 550px;
+    height: 310px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 50px auto;
+    padding: 3px;
+    background-color: lightgray;
+  }
+
+.rectangle {
+    position: relative;
+    border: 3px solid gray;
+    max-width: 550px;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 50px auto;
+    padding: 3px;
+    background-color: gray;
+  }
+
+  .cvv {
+    text-align: Right;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    padding-left: 0px;
+    padding-right: 15px;
+    padding-bottom: -10px;
+    font-size: large;
+  }
+
+  .cvv2 {
+    text-align: Right;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    padding-left: 0px;
+    padding-right: 335px;
+    padding-bottom: -10px;
+    font-size: large;
+  }
+
+.bankName {
+    text-align: Right;
+    padding-left: 0px;
+    padding-right: 35px;
+    padding-bottom: -10px;
+
+  }
+
+.chip {
+    text-align: left;
+    padding-right: 330px;
+  }
+
+.card-number {
+    text-align: left;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    letter-spacing: 2px;
+    padding-right: 340px;
+    font-size: large;
+}
+
+.card-number2 {
+  text-align: left;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  letter-spacing: 2px;
+  font-size: large;
+
+}
+
+.date {
+  text-align: left;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  position: absolute;
+  font-size: large;
+}
+
+.date2 {
+  text-align: Right;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  padding-left: 0px;
+  padding-right: 165px;
+  padding-bottom: -10px;
+  font-size: large;
+}
+
+.validResults {
+  font-size: xx-small;
+}
