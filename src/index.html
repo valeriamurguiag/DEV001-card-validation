@@ -6,9 +6,34 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!--box, ingresar datos y método de pago-->
+    <div class="container">
+      <h2 class="title">La Gran Pantalla</h2>
+      <br><h4 class="color-de-fondo">Información Personal</h4>
+      <img src="icono-informacion-personal.png" alt="Ícono información personal"  style="width:30px;height:30px;">
+      <br><br>
+      <input class="caja-de-texto" id="name" type="text" placeholder="Nombre(s)">
+      <input class="caja-de-texto" id="lastname" type="text" placeholder="Apellidos">
+      <br><br>
+      <input class="caja-de-texto-correo" id="mail" type="text" placeholder="Correo electrónico">
+      <br><br>
+      <h4 class="color-de-fondo">Método de Pago</h4>
+      <img src="icono-metodo-de-pago.png" alt="Ícono método de pago" style="width:50px;height:50px;">
+      <br><br>
+      <button class="button" id="credit-card">Tarjeta de débito/crédito</button>
+      <br><br>
+      <small><label class="letra-pequeña">He leído y estoy de acuerdo con los Términos y Condiciones y Aviso de Privacidad.</label>
+      </small>
+      <input id="terms-and-conditions" name="terminos-y-condiciones" type="checkbox" value="acepto">
+      <br><br>
+      <button class="button" id="proceed-to-payment" onclick="location.href='pago.html'">Proceder al pago</button>
+      <br><br>
+
+    </div>
+
     <header></header>
     <main></main>
     <footer></footer>
-    <script src="index.js" type="module"></script>
+    <!--<script src="index.js" type="module"></script>-->
   </body>
 </html>

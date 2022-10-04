@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--box, detalles de pago y número de tarjeta-->
+        <div class="container">
+            <h2 class="title">La Gran Pantalla</h2>
+            <br>
+            <h4 class="color-de-fondo" id="paymentDetails">Detalles de Pago</h4>
+            <div id ="card" class="card">
+              <h1 class="bankName">Bank name</h1>
+              <img src="icono-chip-tarjeta.png" class="chip" style="width:60px;height:60px;">
+              <input class="card-number" id="card-number" type="text" placeholder="Ej. 1234 5678 9123 4567">
+              <p class="card-number2">CARD NUMBER</p>
+              <input class="date" id="date" type="text" placeholder="Ej. 07/25">
+              <br>
+              <p class="date2">GOOD THRU</p>
+            </div>
+            <div id ="card-reversed" class="card-reversed">
+              <div class="rectangle">
+                <br><br><br>
+                <input class="caja-de-texto" id="cvv" type="text" placeholder="Ej. 087">
+                <p class="cvv2">CVV</p>
+              </div>
+            </div>
+            <button class="button" id="submit" >Ingresar</button>
+            <br><br>
+            <div id="validResults"  class="validResults"></div>
+            <div id="validResults2"  class="validResults2"></div>
+            <br><br>
+    
+    
+        </div>
+
+    <header></header>
+    <main></main>
+    <footer></footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
