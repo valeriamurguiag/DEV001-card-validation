@@ -20,6 +20,8 @@ una herramienta fácil y rápida, ¡compra tus boletos desde casa!
 ## 2. Imagen final del proyecto
 
 [![Imagen-final-del-proyecto.png](https://i.postimg.cc/hjB1rp0g/Imagen-final-del-proyecto.png)](https://postimg.cc/rdf4yGbY)
+[![Imagen-final-del-proyecto2.png](https://i.postimg.cc/pdvdBLT9/Imagen-final-del-proyecto2.png)](https://postimg.cc/4Y8ZfZpZ)
+[![Imagen-final-del-proyecto3.png](https://i.postimg.cc/Kj1cYK9W/Imagen-final-del-proyecto3.png)](https://postimg.cc/y3zCQNCh)
 
 ## 3. Investigación UX: Quiénes son los usuarios y los objetivos en relación con el producto
 
