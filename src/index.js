@@ -1,10 +1,8 @@
 import validator from './validator.js';
 
-console.log(validator);
-
 //Crear una variable extrayendo el elemento con el id ingresar tarjeta
 const submitCard = document.getElementById("submit");
-//Añadir un evento listener con una función que llama a validator
+//----------------Añadir un evento listener con una función que llama a validator-----------------
 submitCard.addEventListener("click", () => {
     //Crear una constante extrayendo valor del elemento con el id número de tarjeta
     const creditCardNumber = document.getElementById("card-number").value 
@@ -28,7 +26,18 @@ submitCard.addEventListener("click", () => {
         document.getElementById("card-reversed").outerHTML = "";
         document.getElementById("submit").outerHTML = "";
     }
+
+    validator.maskify(creditCardNumber);
+    //-----------Crear una condición que no deje ingresar menos de 13 números ni más de 16 números----------
+    if (creditCardNumber.length < 13 || creditCardNumber.length > 16){
+        alert('El número de tarjeta debe llevar entre 13 y 16 digitos.');
+    } else {
+        return false;
+    }
     return false;
 });
+
+
+
 
 
