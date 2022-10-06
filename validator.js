@@ -7,8 +7,6 @@ const validator = {
     const arrOfNum = arr.map(str => {
       return Number(str);
     });
-    //Mostrar en consola
-    console.log('La tarjeta en arreglo es: ' + arrOfNum);
     //------------Buscar los dígitos con posiciones pares-----------
     //Establecer la suma total de pares en cero
     let totalMultipliedDigits = 0;
@@ -23,11 +21,8 @@ const validator = {
       }
     //Añadir el resultado a la suma total
     totalMultipliedDigits += currentDigit;
-    //Mostrar en consola
-    console.log(`Los dígitos en posiciones pares, multiplicados por 2 son: ${currentDigit}`); 
       }
   }
-  console.log(`La suma total de las posiciones pares, multiplicadas por 2 es: ${totalMultipliedDigits}`);
 
 
   //--------------Buscar los dígitos con posiciones impares-------------
@@ -39,20 +34,45 @@ const validator = {
      //Establecer la condición => dígitos con posición impar
      if (i % 2 === 0) {
       totalNonMultipliedDigits += currentDigit2;
-      //Mostrar en la consola
-      console.log(`Los dígitos en posiciones impares son: ${currentDigit2}`)
     }
  }
- console.log(`La suma total de las posiciones impares es: ${totalNonMultipliedDigits}`);
  //Sumar totales
  let total = totalMultipliedDigits + totalNonMultipliedDigits;
- //Mostrar suma TOTAL en la consola (todos los dígitos)
- console.log(`La suma total es: ${total}`);
  //Validar tarjeta con un if que regrese true o false
  if (total % 10 === 0){
   return true;
-  }
+  } else {
   return false;
  }
+},
+
+//--------------Crear una función que reemplace los dígitos de la tarjeta con una máscara------------
+maskify(creditCardNumber, n = 12, mask = '#') {
+  //Regresar resultado con máscara
+  if (creditCardNumber.length === 16) {
+    return ('' + creditCardNumber).slice(0, n).replace(/./g, mask) + ('' + creditCardNumber).slice(n);
+}
+  if (creditCardNumber.length === 15) {
+    n = 11
+    return ('' + creditCardNumber).slice(0, n).replace(/./g, mask) + ('' + creditCardNumber).slice(n);
+}
+  if (creditCardNumber.length === 14) {
+    n = 10
+    return ('' + creditCardNumber).slice(0, n).replace(/./g, mask) + ('' + creditCardNumber).slice(n);
+}
+if (creditCardNumber.length === 13) {
+  n = 9
+  return ('' + creditCardNumber).slice(0, n).replace(/./g, mask) + ('' + creditCardNumber).slice(n);
+}
+if (creditCardNumber.length === 10) {
+  n = 6;
+  return ('' + creditCardNumber).slice(0, n).replace(/./g, mask) + ('' + creditCardNumber).slice(n);
+}
+if (creditCardNumber.length === 1) {
+  return  ('' + creditCardNumber);
+
+}
+}
 };
 export default validator;
+

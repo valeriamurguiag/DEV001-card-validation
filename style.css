@@ -78,7 +78,7 @@ body {
     position: relative;
     border: 3px solid lightgray;
     max-width: 550px;
-    height: 310px;
+    height: 360px;
     border-radius: 15px;
     box-sizing: border-box;
     margin: 50px auto;
@@ -90,7 +90,7 @@ body {
     position: relative;
     border: 3px solid lightgray;
     max-width: 550px;
-    height: 310px;
+    height: 360px;
     border-radius: 15px;
     box-sizing: border-box;
     margin: 50px auto;
@@ -174,4 +174,10 @@ body {
 
 .validResults {
   font-size: xx-small;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
