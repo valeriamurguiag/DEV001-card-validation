@@ -53,32 +53,24 @@ maskify(creditCardNumber, n = 12, mask = '#') {
     return ('' + creditCardNumber).slice(0, n).replace(/./g, mask) + ('' + creditCardNumber).slice(n);
 }
   if (creditCardNumber.length === 15) {
-  n = 11;
-  return ('' + creditCardNumber).slice(0, n).replace(/./g, mask) + ('' + creditCardNumber).slice(n);
+    n = 11
+    return ('' + creditCardNumber).slice(0, n).replace(/./g, mask) + ('' + creditCardNumber).slice(n);
 }
   if (creditCardNumber.length === 14) {
-    n = 10;
+    n = 10
     return ('' + creditCardNumber).slice(0, n).replace(/./g, mask) + ('' + creditCardNumber).slice(n);
 }
-  if (creditCardNumber.length === 13) {
-    n = 9;
-    return ('' + creditCardNumber).slice(0, n).replace(/./g, mask) + ('' + creditCardNumber).slice(n);
-}
-  if (creditCardNumber.length === 12) {
-    n = 8;
-    return ('' + creditCardNumber).slice(0, n).replace(/./g, mask) + ('' + creditCardNumber).slice(n);
-}
-  if (creditCardNumber.length === 11) {
-    n = 7;
-    return ('' + creditCardNumber).slice(0, n).replace(/./g, mask) + ('' + creditCardNumber).slice(n);
+if (creditCardNumber.length === 13) {
+  n = 9
+  return ('' + creditCardNumber).slice(0, n).replace(/./g, mask) + ('' + creditCardNumber).slice(n);
 }
 if (creditCardNumber.length === 10) {
   n = 6;
   return ('' + creditCardNumber).slice(0, n).replace(/./g, mask) + ('' + creditCardNumber).slice(n);
 }
 if (creditCardNumber.length === 1) {
-  n = 0;
-  return ('' + creditCardNumber);
+  return  ('' + creditCardNumber);
+
 }
 }
 };
