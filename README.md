@@ -1,4 +1,4 @@
-# Card Validation: La Gran Pantalla
+# Card Validation: StarCity
 
 ## Índice
 
@@ -13,8 +13,8 @@
 ***
 
 ## 1. Resumen 
-El proyecto La Gran Pantalla nace como una respuesta ante los protocolos COVID-19.
-Evitando aglomeraciones públicas y largas filas, el cine La Gran Pantalla trae a sus usuarios
+El proyecto StarCity nace como una respuesta ante los protocolos COVID-19.
+Evitando aglomeraciones públicas y largas filas, el cine StarCity trae a sus usuarios
 una herramienta fácil y rápida, ¡compra tus boletos desde casa!
 
 ## 2. Imagen final del proyecto
@@ -30,7 +30,7 @@ pública.
 
 ## 4. Investigación UX: Cómo el producto soluciona los problemas/necesidades de dichos usuarios
 
-La Gran Pantalla ofrece una solución materializada en una herramienta digital e intuitiva,
+StarCity ofrece una solución materializada en una herramienta digital e intuitiva,
 que permite a los usuarios de todas las edades adquirir sus boletos desde cualquier lugar al
 alcance de un click.
 
