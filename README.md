@@ -19,9 +19,8 @@ una herramienta fácil y rápida, ¡compra tus boletos desde casa!
 
 ## 2. Imagen final del proyecto
 
-[![Imagen-final-del-proyecto.png](https://i.postimg.cc/hjB1rp0g/Imagen-final-del-proyecto.png)](https://postimg.cc/rdf4yGbY)
-[![Imagen-final-del-proyecto2.png](https://i.postimg.cc/pdvdBLT9/Imagen-final-del-proyecto2.png)](https://postimg.cc/4Y8ZfZpZ)
-[![Imagen-final-del-proyecto3.png](https://i.postimg.cc/Kj1cYK9W/Imagen-final-del-proyecto3.png)](https://postimg.cc/y3zCQNCh)
+[![imagen1.png](https://i.postimg.cc/FR5jfwPR/imagen1.png)](https://postimg.cc/f3C3pqQn)
+[![imagen2.png](https://i.postimg.cc/MGRB8dW8/imagen2.png)](https://postimg.cc/GBLtFP8M)
 
 ## 3. Investigación UX: Quiénes son los usuarios y los objetivos en relación con el producto
 
@@ -42,7 +41,7 @@ añadir íconos.
 
 ## 6. Imagen del prototipo final
 
-[![Prototipo-digital.png](https://i.postimg.cc/VNGDYj9c/Prototipo-digital.png)](https://postimg.cc/gwhvsLBM)
+[![prototipo.png](https://i.postimg.cc/5NRQYZyV/prototipo.png)](https://postimg.cc/hfVtNZVy)
 
 ***
 
