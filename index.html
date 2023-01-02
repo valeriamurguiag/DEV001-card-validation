@@ -6,34 +6,116 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!--box, ingresar datos y método de pago-->
-    <div class="container">
-      <h2 class="title">La Gran Pantalla</h2>
-      <br><h4 class="color-de-fondo">Información Personal</h4>
-      <img src="icono-informacion-personal.png" alt="Ícono información personal"  style="width:30px;height:30px;">
-      <br><br>
-      <input class="caja-de-texto" id="name" type="text" placeholder="Nombre(s)">
-      <input class="caja-de-texto" id="lastname" type="text" placeholder="Apellidos">
-      <br><br>
-      <input class="caja-de-texto-correo" id="mail" type="text" placeholder="Correo electrónico">
-      <br><br>
-      <h4 class="color-de-fondo">Método de Pago</h4>
-      <img src="icono-metodo-de-pago.png" alt="Ícono método de pago" style="width:50px;height:50px;">
-      <br><br>
-      <button class="button" id="credit-card">Tarjeta de débito/crédito</button>
-      <br><br>
-      <small><label class="letra-pequeña">He leído y estoy de acuerdo con los Términos y Condiciones y Aviso de Privacidad.</label>
-      </small>
-      <input id="terms-and-conditions" name="terminos-y-condiciones" type="checkbox" value="acepto">
-      <br><br>
-      <button class="button" id="proceed-to-payment" onclick="location.href='pago.html'">Proceder al pago</button>
-      <br><br>
-
+    <div class="header">
+      <div class="headerTitle">
+        <img src="StarCity-icon.png" style="width:35px;height:35px;"><h4 class="title3">StarCity</h4>
+      </div>
+      <div class="headerOptions">
+        <h4 class="title2">Movies</h4>
+        <h4 class="title2">Theaters</h4>
+        <h4 class="title2">Sign In</h4>
+      </div>
+      <div class="divisionLine"></div>
     </div>
 
-    <header></header>
-    <main></main>
+    <!--box, ingresar datos y método de pago-->
+    <div class="allContent">
+      <div class="payment">
+        <div class="paymentSteps">
+          <div class="step1">Step 1 <br> Tickets</div>
+          <div class="step2">Step 2 <br> Seats</div>
+          <div class="step3">Step 3 <br> Payment</div>
+        </div>
+
+        <div class="myCard">
+          <h4 class="title4">My Card</h4>
+          <img src="credit-card-icon.png" class="black-card" style="width:545px;height:455px;">
+          <h4 class="hiddenCardNumber" id="hiddenCardNumber">################</h4>
+        </div>
+        <h4 class="title4">Payment Details</h4>
+
+        <div class="container">
+              <form id="formulario" >
+              
+                <input class="card-number" id="card-number" type="number" placeholder="Card number:">
+                <input class="card-holder" type="text" placeholder="Card holder name:">
+                <br>
+                <p class="date2">GOOD THRU</p>
+                <select class="date" id="date" type="text" name="month">
+                  <option>Month:</option>
+                  <option>01</option>
+                  <option>02</option>
+                  <option>03</option>
+                  <option>04</option>
+                  <option>05</option>
+                  <option>06</option>
+                  <option>07</option>
+                  <option>08</option>
+                  <option>09</option>
+                  <option>10</option>
+                  <option>11</option>
+                  <option>12</option>
+                </select>
+
+                <select class="date" id="date" type="text" name="year">
+                  <option>Year:</option>
+                  <option>2023</option>
+                  <option>2024</option>
+                  <option>2025</option>
+                  <option>2026</option>
+                  <option>2027</option>
+                  <option>2028</option>
+                  <option>2029</option>
+                  <option>2030</option>
+                  <option>2031</option>
+                  <option>2032</option>
+                  <option>2033</option>
+                </select>
+                <br>
+
+              <input class="caja-de-texto" id="cvv" type="number" placeholder="CVV">
+              <div class="cardsIcon">
+                <img src="visa-logo2.png" style="width:35px;height:24px;">
+                <img src="mastercard-logo.png" style="width:35px;height:20px;">
+              </div>
+              <br>
+              <button class="button" id="ingresar" type="submit">SUBMIT</button>
+              </form>
+            <br><br>
+            <div class="title6" id="validResults"  class="validResults"></div>
+            <div class="title6" id="validResults2"  class="validResults2"></div>
+            <br><br>
+      </div>
+        
+      </div>
+      <div class="purchaseSummary">
+        <h4 class="title4">Purchase Summary</h4>
+        <img src="secretsOfDumbledore.jpg" class="imgMovie" style="width:130px;height:190px;">
+        <div class="purchaseInfo">
+          <h4 class="title2">Movie:<span></h4><h4 class="title5"> The Secrets of Dumbledore</h4>
+        </div>
+        <div class="purchaseInfo">
+          <h4 class="title2">Theater:<span></h4><h4 class="title5"> StarCity Chinatown</h4>
+        </div>
+        <div class="purchaseInfo">
+          <h4 class="title2">Date:<span></h4><h4 class="title5"> October 7th 2022</h4>
+        </div>
+        <div class="purchaseInfo">
+          <h4 class="title2">Time:<span></h4><h4 class="title5"> 8:30 PM</h4>
+        </div>
+        <div class="purchaseInfo">
+          <h4 class="title2">Tickets:<span></h4><h4 class="title5"> 2 Adults (N5, N6 - $62)</h4>
+        </div>
+        <br>
+        <div class="divLine"></div>
+        <div class="purchaseTotal">Total: $62</div>
+        <div class="divLine"></div>
+      </div>
+    </div>
+    
+    </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>
+
