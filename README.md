@@ -22,7 +22,7 @@ Link: https://valeriamurguiag.github.io/DEV001-card-validation/
 ## 2. Imagen final del proyecto
 
 [![imagen1.png](https://i.postimg.cc/FR5jfwPR/imagen1.png)](https://postimg.cc/f3C3pqQn)
-[![imagen2.png](https://i.postimg.cc/MGRB8dW8/imagen2.png)](https://postimg.cc/GBLtFP8M)
+[![imagen3.png](https://i.postimg.cc/Y23LzvnM/imagen3.png)](https://postimg.cc/mhPrbgW5)
 
 ## 3. Investigación UX: Quiénes son los usuarios y los objetivos en relación con el producto
 
