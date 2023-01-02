@@ -16,7 +16,7 @@ ingresarCard.addEventListener("submit", (event) => {
             alert(verify);
             const validResults = document.getElementById("validResults");
             //Mostrar mensaje de pago exitoso
-            validResults.innerHTML = '<br><br><h4> ¡Compra realizada con éxito! <br><br> <img src="correct-icon.png" alt="Correct-Icon" style="width:50px;height:50px;" </h4>';
+            validResults.innerHTML = '<br><br><h4> Thank you! <br> Your purchase was succesful. <br><br> <img src="correct-icon.png" alt="Correct-Icon" style="width:50px;height:50px;" </h4>';
             document.getElementById("paymentDetails").outerHTML = "";
             document.getElementById("card").outerHTML = "";
             document.getElementById("card-reversed").outerHTML = "";
@@ -26,7 +26,7 @@ ingresarCard.addEventListener("submit", (event) => {
             alert(verify2);
             const invalidResults = document.getElementById("validResults");
             //Mostrar mensaje de pago rechazado
-            invalidResults.innerHTML = '<br><br><h4> Lo sentimos. <br> La tarjeta que ingresaste no es válida. <br><br> <img src="incorrect-icon.png" alt="Incorrect-Icon" style="width:50px;height:50px;" </h4>';
+            invalidResults.innerHTML = '<br><br><h4> Payment unsuccesful. <br> Please try again. <br><br> <img src="incorrect-icon.png" alt="Incorrect-Icon" style="width:50px;height:50px;" </h4>';
             document.getElementById("paymentDetails").outerHTML = "";
             document.getElementById("card").outerHTML = "";
             document.getElementById("card-reversed").outerHTML = "";
