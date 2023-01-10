@@ -1,4 +1,4 @@
-# Card Validation: StarCity
+# Credit Card Validation: StarCity
 
 ## Índice
 
